@@ -1,0 +1,119 @@
+*{
+    padding:0%;
+    margin: 0%;
+    background-color: rgb(241,245,248);
+  
+}
+.imgContainer{
+width: 400px;
+height: 230px;
+}
+.textCintainer{
+   width: 450px;
+   height: 230px;
+   line-height: 20px;
+}
+.naivtab{
+display: inline-block;
+width: 430px;
+background-color: gray;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.history{
+width: 110px;
+height: 30px;
+text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: gray;
+    color: rgb(53,60,80);
+   display: block;
+}
+.vision{
+    width: 110px;
+    height: 30px;  
+    text-align: center;
+}
+.goal{
+    width: 110px;
+    height: 30px;
+    text-align: center;
+}
+ img{
+    width: 440px;
+    height: 300px;
+  
+}
+p{
+    width: 450px;
+    height: 250px;
+    padding: 15px;
+    padding-top:8px;
+    line-height: 22px;
+    padding-top: 20px;
+    color:rgb(138,149,156);
+}
+
+.subcontainer{
+display: flex;
+gap: 100px;
+margin: 100px 370px;
+
+}
+
+#history{
+display: none;
+width: 400px;
+
+}
+#vision{
+display: none;
+width: 400px;
+}
+#goal{
+display: none;
+width: 400px;
+background-color: white;
+}
+
+#history:target{
+    display: block;
+    background-color: white;
+}
+
+#vision:target{
+    display: block;
+    background-color: white;
+}
+ 
+#goal:target{
+  display: block;
+  background-color: white;
+}
+
+p::first-line{
+   color: rgb(53,60,80);
+}
+.head{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 80px;
+}
+#line1{
+    margin-top: 10px;
+    color: gray;
+}
+
+h1{
+    color: rgb(53,60,80);
+}
+
+.bg{
+    background-color: white;
+}
